@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&display=swap');
+
+:root {
+  --gold: #C6973F;
+  --navy: #0D1B2A;
+  --cream: #FDFAF4;
+  --cream-dark: #FDF6E8;
+  --text: #2C2416;
+  --text-light: #6B5A3E;
+  --text-muted: #9C8B72;
+  --border: #E8DFC8;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: var(--cream);
+  color: var(--text);
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.btn-gold {
+  background-color: var(--gold);
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+
+.btn-gold:hover {
+  background-color: #b8862e;
+  color: #fff;
+}
+
+.btn-gold-outline {
+  background: #fff;
+  color: var(--gold);
+  border: 1.5px solid var(--gold);
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+
+.btn-gold-outline:hover {
+  background-color: var(--gold);
+  color: #fff;
+}
+
+.gold-line {
+  width: 36px;
+  height: 2px;
+  background: var(--gold);
+  margin-bottom: 1rem;
+}
+
+.page-label {
+  font-size: 10px;
+  letter-spacing: 3px;
+  color: var(--gold);
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
